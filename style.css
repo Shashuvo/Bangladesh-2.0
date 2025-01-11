@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 10px 20px;
+    font-family: fira sans;
+}
+
+/* NAVBAR */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar button{
+    background-color: white;
+    color: #006A50;
+    width: 116px;
+    height: 52px;
+    border-radius: 8px;
+    border-color: #006A50;
+}
+
+/* BANNER */
+
+.banner{
+    background-color: #C6E4D6;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 18px;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 55px;
+}
+
+.banner-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.banner-left h3{
+    color: #0E0E0E;
+    opacity: 70%;
+}
+.banner-left p{
+    font-size: 56px;
+    font-weight: bolder;
+}
+
+.banner-left button{
+    width: 200px;
+    height: 50px;
+    background-color: #006A50;
+    color: white;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.banner-right img{
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+
+/* Pillars */
+
+.pillars{
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-right: 55px;
+}
+.pillar-lists{
+    margin-top: 30px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.bgc{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+.bgc p{
+    color: silver;
+}
+
+/* Vision of future */
+
+.vision-of-future{
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-right: 55px;
+}
+.vision-lists{
+    margin-top: 30px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.flex-button button{
+    margin-top: 30px;
+}
+.vision-lists button{
+    border-radius: 10px;
+    width: 122px;
+    height: 41px;
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+    border: none;
+}
+.Digital-Transformation{
+    background-color: #99cedb;
+}
+.Digital-Transformation button{
+    background-color: #5490F5;
+}
+.vision-lists .bgc p{
+    color:black;
+}
+.Green-Energy{
+    background-color: #92d9b8;
+}
+.Green-Energy button{
+    background-color: #09A15C;
+}
+.Modern-Infrastructure{
+    background-color: #ead59c;
+}
+.Modern-Infrastructure button{
+    background-color: #FFC239;
+}
