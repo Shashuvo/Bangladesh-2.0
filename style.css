@@ -22,6 +22,16 @@
     font-weight: 600;
 }
 
+/* Sign In Button Hover effect */
+
+.navbar button:hover{
+    display: block;
+    filter: drop-shadow(0 0 10px #006A50);
+    background-color: #006A50;
+    color: white;
+    cursor: pointer;
+}
+
 /* BANNER */
 
 .banner{
@@ -60,6 +70,17 @@
     font-size: 15px;
     border: 2px solid #006A50;
 }
+
+/* Explore-me Button Hover */
+.banner-left button:hover{
+    display: block;
+    filter: drop-shadow(0 0 20px #006A50);
+    background-color: white;
+    color: #006A50;
+    cursor: pointer;
+    border: none;
+}
+
 .banner-right img{
     padding-top: 30px;
     padding-bottom: 40px;
@@ -118,6 +139,35 @@
 .quote #tag{
     opacity: 70%;
 }
+
+/* opinion */
+
+.opinion{
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-right: 55px;
+}
+
+.opinion-box{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+.particulars{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    background-color: #92d9b8;
+    border: 1px solid black;
+    height: 60px;
+    margin-top: 20px;
+}
+.particulars h3{
+    padding-top: 10px;
+}
+
 /* Vision of future */
 
 .vision-of-future{
@@ -151,6 +201,16 @@
 .Digital-Transformation button{
     background-color: #5490F5;
 }
+
+/* DT Button Hover */
+.Digital-Transformation button:hover{
+    display: block;
+    filter: drop-shadow(0 0 20px #5490f5);
+    background-color: white;
+    color: #5490F5;
+    cursor: pointer;
+    border: 2px solid #5490F5;
+}
 .vision-lists .bgc p{
     color:black;
 }
@@ -161,12 +221,31 @@
 .Green-Energy button{
     background-color: #09A15C;
 }
+
+/* GE Button Hover */
+.Green-Energy button:hover{
+    display: block;
+    filter: drop-shadow(0 0 20px #09A15C);
+    background-color: white;
+    color: #09A15C;
+    cursor: pointer;
+    border: 2px solid #09A15C;
+}
 .Modern-Infrastructure{
     background-color: #ead59c;
     padding: 20px 20px;
 }
 .Modern-Infrastructure button{
     background-color: #FFC239;
+}
+/* MI hover effect */
+.Modern-Infrastructure button:hover{
+    display: block;
+    filter: drop-shadow(0 0 20px #FFC239);
+    background-color: white;
+    color: #FFC239;
+    cursor: pointer;
+    border: 2px solid #FFC239;
 }
 
 /* RECENT NEWS */
@@ -215,6 +294,15 @@
     font-weight: bolder;
     font-size: large;
 }
+/* Box1 */
+.box1right button:hover{
+    display: block;
+    filter: drop-shadow(0 0 20px #006A50);
+    background-color: white;
+    color: #006A50;
+    cursor: pointer;
+    border: 2px solid #006A50;
+}
 .box2{
     display: flex;
     justify-content: baseline;
@@ -234,6 +322,15 @@
     height: 48px;
     font-weight: bolder;
     font-size: large;
+}
+/* Box2 */
+.box2left button:hover{
+    display: block;
+    filter: drop-shadow(0 0 20px #006A50);
+    background-color: white;
+    color: #006A50;
+    cursor: pointer;
+    border: 2px solid #006A50;
 }
 
 /* DONATE_TODAY */
@@ -265,8 +362,26 @@
     border:2px solid white;
 }
 
+/* taka-button hover*/
+.taka-button button:hover{
+    display: block;
+    filter: drop-shadow(0 0 20px #006A50);
+    background-color: #006A50;
+    color: white;
+    cursor: pointer;
+    border: 2px solid #006A50;
+}
+
 #color{
     background-color: #92d9b8;
+    border: 2px solid #92d9b8;
+}
+#color:hover{
+    display: block;
+    filter: drop-shadow(0 0 20px #92d9b8);
+    background-color: white;
+    color: #92d9b8;
+    cursor: pointer;
     border: 2px solid #92d9b8;
 }
 .input #input{
@@ -286,6 +401,16 @@
     border-radius: 10px;
     font-size: larger;
 }
+/* donate-done button hover */
+#donate-done:hover{
+    display: block;
+    filter: drop-shadow(0 0 20px #006A50);
+    background-color:white;
+    color: #006A50;
+    cursor: pointer;
+    border: 2px solid #006A50;
+}
+
 
 /* Newsletter */
 
@@ -332,15 +457,38 @@
     font-size: larger;
     font-weight: bold;
 }
+/* .subscribe-panel button */
+.subscribe-panel button:hover{
+    display: block;
+    filter: drop-shadow(0 0 20px #006A50);
+    background-color:white;
+    color: #006A50;
+    cursor: pointer;
+    border: none;
+}
 
 /* FOOTER */
-
+footer{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .footer{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin-top: 60px;
-    box-shadow: 0 0 15px 15px rgba(0, 0, 0, 0.1);
-    padding-top: 60px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    padding: 40px 0px;
+    width: 105.5%;
+    margin-left: -40px;
+    margin-bottom: -60px;
+}
+.footer h1{
+    padding: 20px 0px;
+}
+
+.social-images{
+    padding: 20px 0px;
 }
