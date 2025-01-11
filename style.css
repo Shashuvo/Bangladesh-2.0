@@ -17,7 +17,9 @@
     width: 116px;
     height: 52px;
     border-radius: 8px;
-    border-color: #006A50;
+    border:2px solid #006A50;
+    font-size: large;
+    font-weight: 600;
 }
 
 /* BANNER */
@@ -55,6 +57,8 @@
     color: white;
     border-radius: 10px;
     font-weight: 600;
+    font-size: 15px;
+    border: 2px solid #006A50;
 }
 .banner-right img{
     padding-top: 30px;
@@ -72,12 +76,14 @@
 .pillar-lists{
     margin-top: 30px;
     margin-left: 0px;
+    margin-right: 0px;
     display: flex;
     justify-content: space-between;
 }
 .bgc{
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
+    padding: 10px 10px;
 }
 .bgc p{
     color: silver;
@@ -93,6 +99,7 @@
 .vision-lists{
     margin-top: 30px;
     margin-left: 0px;
+    margin-right: 0px;
     display: flex;
     justify-content: space-between;
 }
@@ -110,6 +117,7 @@
 }
 .Digital-Transformation{
     background-color: #99cedb;
+    padding: 20px 20px;
 }
 .Digital-Transformation button{
     background-color: #5490F5;
@@ -119,12 +127,14 @@
 }
 .Green-Energy{
     background-color: #92d9b8;
+    padding: 20px 20px;
 }
 .Green-Energy button{
     background-color: #09A15C;
 }
 .Modern-Infrastructure{
     background-color: #ead59c;
+    padding: 20px 20px;
 }
 .Modern-Infrastructure button{
     background-color: #FFC239;
@@ -150,9 +160,13 @@
 }
 .box1{
     display: flex;
-    justify-content: baseline;
+    justify-content: space-between;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
     border-radius: 15px;
+    padding: 20px 20px;
+}
+.box1right{
+    flex-direction: column;
 }
 .box1left img{
     border-radius: 15px;
@@ -160,8 +174,7 @@
 .date-time{
     display: flex;
     gap: 5px;
-    margin-left: 0px;
-    margin-top: 0%;
+    margin: 0px 0px;
 }
 .box1right button{
     color: white;
@@ -178,6 +191,7 @@
     justify-content: baseline;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
     border-radius: 15px;
+    padding: 20px 20px;
 }
 .box2right img{
     border-radius: 15px;
@@ -191,4 +205,55 @@
     height: 48px;
     font-weight: bolder;
     font-size: large;
+}
+
+/* DONATE_TODAY */
+
+.donate-today{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.opacity{
+    opacity: 80%;
+}
+.taka-button{
+    display: flex;
+    justify-content: space-between;
+}
+.taka-button button{
+    width: 240px;
+    height: 128px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    background-color: white;
+    font-weight: bolder;
+    font-size: 40px;
+    border:2px solid white;
+}
+
+#color{
+    background-color: #92d9b8;
+    border: 2px solid #92d9b8;
+}
+.input #input{
+    width: 1032px;
+    height: 44px;
+    text-align: center;
+    opacity: 80%;
+    font-size: large;
+}
+#donate-done{
+    background-color: #006A50;
+    border: 2px solid #006A50;
+    color: white;
+    font-weight: 600;
+    width: 151px;
+    height: 56px;
+    border-radius: 10px;
+    font-size: larger;
 }
