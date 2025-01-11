@@ -129,3 +129,66 @@
 .Modern-Infrastructure button{
     background-color: #FFC239;
 }
+
+/* RECENT NEWS */
+
+.recent-news{
+    margin-top: 60px;
+    margin-right: 0px;
+    margin-left: 40px;
+}
+
+.recent-news p{
+    padding-top: 10px;
+    opacity: 80%;
+}
+.recent-boxs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 0px;
+}
+.box1{
+    display: flex;
+    justify-content: baseline;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+}
+.box1left img{
+    border-radius: 15px;
+}
+.date-time{
+    display: flex;
+    gap: 5px;
+    margin-left: 0px;
+    margin-top: 0%;
+}
+.box1right button{
+    color: white;
+    background-color: #006A50;
+    border-radius: 5px;
+    border-color: none;
+    width: 139px;
+    height: 48px;
+    font-weight: bolder;
+    font-size: large;
+}
+.box2{
+    display: flex;
+    justify-content: baseline;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+}
+.box2right img{
+    border-radius: 15px;
+}
+.box2left button{
+    color: white;
+    background-color: #006A50;
+    border-radius: 5px;
+    border-color: none;
+    width: 139px;
+    height: 48px;
+    font-weight: bolder;
+    font-size: large;
+}
