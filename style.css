@@ -464,3 +464,6 @@ footer{
 .social-images{
     padding: 20px 0px;
 }
+.footer hr{
+    opacity: 10%;
+}
